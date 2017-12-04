@@ -18,6 +18,7 @@
 		55A632701FD363460033E726 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A6326F1FD363460033E726 /* ToDoUITests.swift */; };
 		55AEF1AF1FD46BD100B91787 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF1AE1FD46BD100B91787 /* LocationTests.swift */; };
 		55AEF1B11FD46F6E00B91787 /* ItemManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF1B01FD46F6E00B91787 /* ItemManagerTest.swift */; };
+		95C765031FD58E1600958DFD /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C765021FD58E1600958DFD /* ItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		55A632711FD363460033E726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55AEF1AE1FD46BD100B91787 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		55AEF1B01FD46F6E00B91787 /* ItemManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManagerTest.swift; sourceTree = "<group>"; };
+		95C765021FD58E1600958DFD /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				55794EC71FD45EB3007AA46D /* ToDoItem.swift */,
 				557F97751FD4686D005A7E1E /* Location.swift */,
+				95C765021FD58E1600958DFD /* ItemManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A632521FD363460033E726 /* ViewController.swift in Sources */,
+				95C765031FD58E1600958DFD /* ItemManager.swift in Sources */,
 				55A632501FD363460033E726 /* AppDelegate.swift in Sources */,
 				557F97761FD4686D005A7E1E /* Location.swift in Sources */,
 				55794EC81FD45EB3007AA46D /* ToDoItem.swift in Sources */,
